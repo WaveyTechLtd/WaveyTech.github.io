@@ -39,7 +39,7 @@ body {
 	display: block;
 }
 
-.mytabs input[type="radio"]: checked + label {
+.mytabs input[type="radio"]:checked + label {
 	background: #fff;
 }
 
