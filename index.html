@@ -1,37 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+
 </head>
 <body>
 
+<div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+</div>
+
+<div style="padding-left:16px">
+  <h2>Top Navigation Example</h2>
+  <p>Some content..</p>
+</div>
+
 </body>
 </html>
-
-<button class='tablink' onclick="openPage('UV Boxes', this, 'red')">UV Boxes</button>
-<button class='tablink' onclick="openPage('Data Science', this, 'green')" id="defaultOpen">Data Science</button>
-<button class='tablink' onclick="openPage('Contact Us', this, 'blue')">Contact Us</button>
-<button class='tablink' onclick="openPage('Bio', this, 'orange')">Bio</button>
-
-<div id="UV Boxes" class="tabcontent">
-  <h3> UV Boxes </h3>
-  <p> UV Box info ... roll up roll up get your UV boxes here </p>
-</div>
-
-<div id="Data Science" class="tabcontent">
-  <h3>Data Science</h3>
-  <p>You've got the data, I've got the science!</p>
-</div>
-
-<div id="Contact Us" class="tabcontent">
-  <h3>Contact</h3>
-  <p>Get in touch, or swing by for a cup of coffee. I'm so laid back</p>
-</div>
-
-<div id="Bio" class="tabcontent">
-  <h3>Bio</h3>
-  <p>What the hell is WaveyTech anyway?</p>
-</div>
