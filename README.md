@@ -1,4 +1,4 @@
-# WaveyTech.github.io
+# WaveyTechLtd.github.io
 WaveyTech Website
 
 TO-DO
