@@ -40,6 +40,6 @@ body {
 }
 
 .mytabs input[type="radio"]: checked + label {
-	background: #fff
+	background: #fff;
 }
 
