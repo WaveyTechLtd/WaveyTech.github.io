@@ -3,20 +3,37 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="style.css">
+<script src="main.js"></script>
+
+<title>WaveyTechnologies</title>
+<link rel="shortcut icon" href="W_only_white.ico" />
 
 </head>
-<body>
 
-<div class="topnav">
-  <a class="active" href="#home">Home</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
-  <a href="#about">About</a>
+<body>
+<button class="tablink" onclick="openPage('Home', this, '#39BBFE')" id="defaultOpen">Home</button>
+<button class="tablink" onclick="openPage('News', this, '#4BF94D')">News</button>
+<button class="tablink" onclick="openPage('Contact', this, '#E77CFE')">Contact</button>
+<button class="tablink" onclick="openPage('About', this, '#FF2640')">About</button>
+
+<div id='Home' class="tabcontent">
+  <h3>Home</h3>
+  <p>Home is where the heart is..</p>
 </div>
 
-<div style="padding-left:16px">
-  <h2>Top Navigation Example</h2>
-  <p>Some content..</p>
+<div id="News" class="tabcontent">
+  <h3>News</h3>
+  <p>Some news this fine day!</p>
+</div>
+
+<div id="Contact" class="tabcontent">
+  <h3>Contact</h3>
+  <p>Get in touch, or swing by for a cup of coffee.</p>
+</div>
+
+<div id="About" class="tabcontent">
+  <h3>About</h3>
+  <p>Who we are and what we do.</p>
 </div>
 
 </body>
