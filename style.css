@@ -1,45 +1,36 @@
-/* This is my style.css file, for the moment it's blank whilst I work out what the hell is going on */
-
-body {
-	background: #ccc;
-	font-family: 'Roboto', sans-serif;
+/* Set height of body and the document to 100% to enable "full page tabs" */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
 }
 
-.mytabs {
-	display: flex;
-	flex-wrap: wrap;
-	max-width: 600px;
-	margin: 50px auto;
-	padding: 25px;
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
 }
 
-.mytabs input[type="radio"] {
-	display: none;
+.tablink:hover {
+  background-color: #777;
 }
 
-.mytabs label {
-	padding: 25px;
-	background: #e2e2e2;
-	font-weight: bold;
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
 }
 
-.mytabs .tab {
-	width: 100%;
-	padding: 20px;
-	background:#fff;
-	order: 1;
-	display: none;
-}
-
-.mytabs .tab h2 {
-	font-size: 3em;
-}
-
-.mytabs input[type="radio"]:checked + label + .tab {
-	display: block;
-}
-
-.mytabs input[type="radio"]:checked + label {
-	background: #fff;
-}
-
+#Home {background-color: red;}
+#News {background-color: green;}
+#Contact {background-color: blue;}
+#About {background-color: orange;}

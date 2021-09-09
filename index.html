@@ -1,43 +1,37 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <! "head" sets the text that appears in the titlebar of the user's browser>
-  <head>
-    <meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="style.css">
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <title>Wavey Technologies Ltd</title>
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
 
-  <! "body" sets the text that appears in the body of the website with h1 = header and p = main text>
-  <body>
-
-	<! div creates a block of something in html, to be formatted more easily with style.css, we give it a class tag>
-	<div class="mytabs">
-		<input type="radio" id="tab_biography" name="mytabs" checked="checked">
-		<label for="tab_biography">Biography</label>
-		<div class="tab">
-			<h2>Biography</h2>
-			<p>The quick brown fox jumped over the lazy dog</p>
-		</div>
-
-	<div class="mytabs">
-		<input type="radio" id="tab_datascience" name="mytabs">
-		<label for="tab_datascience">Data Science</label>
-		<div class="tab">
-			<h2>Data Science</h2>
-			<p>The quick brown fox jumped over the lazy dog</p>
-		</div>
-
-	<div class="mytabs">
-		<input type="radio" id="tab_uvboxes" name="mytabs">
-		<label for="tab_uvboxes">UV Boxes</label>
-		<div class="tab">
-      <!Adding in another comment just so I have something to commit >
-			<h2>UV Boxes</h2>
-			<p>The quick brown fox jumped over the lazy dog</p>
-		</div>
-
-	</div>
-  </body>
+</body>
 </html>
+
+<button class="tablink" onclick="openPage('Home', this, 'red')">Home</button>
+<button class="tablink" onclick="openPage('News', this, 'green')" id="defaultOpen">News</button>
+<button class="tablink" onclick="openPage('Contact', this, 'blue')">Contact</button>
+<button class="tablink" onclick="openPage('About', this, 'orange')">About</button>
+
+<div id="Home" class="tabcontent">
+  <h3>Home</h3>
+  <p>Home is where the heart is..</p>
+</div>
+
+<div id="News" class="tabcontent">
+  <h3>News</h3>
+  <p>Some news this fine day!</p>
+</div>
+
+<div id="Contact" class="tabcontent">
+  <h3>Contact</h3>
+  <p>Get in touch, or swing by for a cup of coffee.</p>
+</div>
+
+<div id="About" class="tabcontent">
+  <h3>About</h3>
+  <p>Who we are and what we do.</p>
+</div>
