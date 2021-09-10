@@ -1,5 +1,18 @@
 * {box-sizing: border-box}
 
+/* Used to set variables which are used over and over again*/
+:root {
+  --home-color: #2f89ba;
+  --reaction-color: #4166d0;
+  --data-color: #5244e6;
+  --about-color: #661cff;
+}
+
+#Home {background-color: var(--home-color);}
+#Reaction_Boxes {background-color: var(--reaction-color);}
+#Data_Science {background-color: var(--data-color);}
+#About_Us {background-color: var(--about-color);}
+
 /* Set height of body and the document to 100% */
 body, html {
   height: 100%;
@@ -10,7 +23,7 @@ body, html {
 /* Set the style for the html id="header" */
 #header {
   background-color: #555;
-  padding: 20px;
+  padding: 20px 20px;
   text-align: right;
   vertical-align: center;
   font-size: 30px;
@@ -41,8 +54,3 @@ body, html {
   padding: 100px 20px;
   height: 100%;
 }
-
-#Home {background-color: #2f89ba;}
-#Reaction_Boxes {background-color: #4166d0;}
-#Data_Science {background-color: #5244e6;}
-#About_Us {background-color: #661cff;}
