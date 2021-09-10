@@ -1,39 +1,63 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="style.css">
-<script src="main.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-<title>WaveyTechnologies</title>
-<link rel="shortcut icon" href="W_only_white.ico" />
+  <! Sets up the links to the .css style document and the .js JavaScript document>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js"></script>
 
+  <! Defines the text and image icon that appears in the browser title-bar>
+  <title>WaveyTechnologies</title>
+  <link rel="shortcut icon" href="Images/W_only_white.ico" />
 </head>
 
+<div id="header">
+    <img src="Images/WaveyTech_reverse.png"
+    width=275px height=80px align="left"/>
+    <h6>waveytechnologies@gmail.com</h6>
+</div>
+
 <body>
-<button class="tablink" onclick="openPage('Home', this, '#39BBFE')" id="defaultOpen">Home</button>
-<button class="tablink" onclick="openPage('News', this, '#4BF94D')">News</button>
-<button class="tablink" onclick="openPage('Contact', this, '#E77CFE')">Contact</button>
-<button class="tablink" onclick="openPage('About', this, '#FF2640')">About</button>
+<button class="tablink" onclick="openPage('Home', this, '#2f89ba')" id="defaultOpen">Home</button>
+<button class="tablink" onclick="openPage('Reaction_Boxes', this, '#4166d0')">Reaction Boxes</button>
+<button class="tablink" onclick="openPage('Data_Science', this, '#5244e6')">Data Science</button>
+<button class="tablink" onclick="openPage('About_Us', this, '#661cff')">About Us</button>
 
 <div id='Home' class="tabcontent">
   <h3>Home</h3>
-  <p>Home is where the heart is..</p>
+  <p>Default landing page for the website. The quick brown fox jumped over the lazy dog.
+  The quick brown fox jumped over the lazy dog.
+  The quick brown fox jumped over the lazy dog.
+  The quick brown fox jumped over the lazy dog.
+  The quick brown fox jumped over the lazy dog. </p>
 </div>
 
-<div id="News" class="tabcontent">
-  <h3>News</h3>
-  <p>Some news this fine day!</p>
+<div id="Reaction_Boxes" class="tabcontent">
+  <h3>Reaction Boxes</h3>
+  <p>Information, pictures and maybe a video about our bespoke irradiation boxes.
+    The quick brown fox jumped over the lazy dog.
+    The quick brown fox jumped over the lazy dog.
+    The quick brown fox jumped over the lazy dog.
+    The quick brown fox jumped over the lazy dog.
+    The quick brown fox jumped over the lazy dog. </p>
 </div>
 
-<div id="Contact" class="tabcontent">
-  <h3>Contact</h3>
-  <p>Get in touch, or swing by for a cup of coffee.</p>
+<div id="Data_Science" class="tabcontent">
+  <h3>Data Science</h3>
+  <p>Information about Data Science stuff.
+    The quick brown fox jumped over the lazy dog.
+    The quick brown fox jumped over the lazy dog.
+    The quick brown fox jumped over the lazy dog.
+    The quick brown fox jumped over the lazy dog.
+    The quick brown fox jumped over the lazy dog. </p>
 </div>
 
-<div id="About" class="tabcontent">
-  <h3>About</h3>
-  <p>Who we are and what we do.</p>
+<div id="About_Us" class="tabcontent">
+  <h3>About Us</h3>
+  <p>Ciao, mi chiamo Charlie e me piace data.</p>
 </div>
 
 </body>

@@ -7,6 +7,16 @@ body, html {
   font-family: Arial;
 }
 
+/* Set the style for the html id="header" */
+#header {
+  background-color: #555;
+  padding: 20px;
+  text-align: right;
+  vertical-align: center;
+  font-size: 30px;
+  color: white;
+}
+
 /* Style tab links */
 .tablink {
   background-color: #555;
@@ -32,7 +42,7 @@ body, html {
   height: 100%;
 }
 
-#Home {background-color: #39BBFE;}
-#News {background-color: #4BF94D;}
-#Contact {background-color: #E77CFE;}
-#About {background-color: #FF2640;}
+#Home {background-color: #2f89ba;}
+#Reaction_Boxes {background-color: #4166d0;}
+#Data_Science {background-color: #5244e6;}
+#About_Us {background-color: #661cff;}
