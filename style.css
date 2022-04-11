@@ -9,8 +9,8 @@
 }
 
 #Home {background-color: var(--home-color);}
-#The UV Irradiator {background-color: var(--uv-color);}
-#The Blue Light Irradiator {background-color: var(--blue-color);}
+#WT_4_365 {background-color: var(--uv-color);}
+#WT_4_457 {background-color: var(--blue-color);}
 #About_Us {background-color: var(--about-color);}
 
 /* Set height of body and the document to 100% */
