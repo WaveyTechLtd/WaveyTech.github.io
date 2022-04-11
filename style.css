@@ -3,14 +3,14 @@
 /* Used to set variables which are used over and over again*/
 :root {
   --home-color: #2f89ba;
-  --reaction-color: #4166d0;
-  --data-color: #5244e6;
+  --uv-color: #4166d0;
+  --blue-color: #5244e6;
   --about-color: #661cff;
 }
 
 #Home {background-color: var(--home-color);}
-#Reaction_Boxes {background-color: var(--reaction-color);}
-#Data_Science {background-color: var(--data-color);}
+#The UV Irradiator {background-color: var(--uv-color);}
+#The Blue Light Irradiator {background-color: var(--blue-color);}
 #About_Us {background-color: var(--about-color);}
 
 /* Set height of body and the document to 100% */
