@@ -30,6 +30,17 @@ body, html {
   color: white;
 }
 
+#box_images {
+  width:200px;
+  text-align:center;
+  display:block;
+  background-color: transparent;
+  border: 1px solid transparent;
+  margin-right: 10px;
+  margin-bottom: 1px;
+  float:left;
+}
+
 /* Style tab links */
 .tablink {
   background-color: #555;
